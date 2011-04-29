@@ -25,9 +25,10 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: learningallaboutgithub_production
+  database: learningallaboutgithub
   pool: 5
-  username: root
-  password: d00rkn0b
-  socket: /var/lib/mysql/mysql.sock
+  username: deploy
+  password: eWkMQoXpOq
+  host: localhost
+#  socket: /var/lib/mysql/mysql.sock
 
